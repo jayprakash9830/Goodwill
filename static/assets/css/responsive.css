@@ -16,10 +16,10 @@
     #mainSlider .item-inner {
         height: 600px;
     }
-    .slider-content > h2 {
-        font-size: 65px;
-        line-height: 80px;
-    }
+    /* .slider-content > h2 {
+        font-size: 4vh;
+        line-height: 30px;
+    } */
     .error-content {
         margin: 200px 0 320px;
     }
@@ -130,10 +130,10 @@
     .site-content {
         margin-top: 72px;
     }
-    .slider-content > h2 {
-        font-size: 60px;
-        line-height: 75px;
-    }
+    /* .slider-content > h2 {
+        font-size: 4vh;
+        line-height: 30px;
+    } */
     .pageBanner-content {
         padding: 85px 0 110px;
     }
@@ -237,10 +237,10 @@
     .single-service > h2 {
         font-size: 38px;
     }
-    .slider-content > h2 {
-        font-size: 50px;
-        line-height: 66px;
-    }
+    /* .slider-content > h2 {
+        font-size: 4vh;
+        line-height: 30px;
+    } */
     .pageBanner-content > h1 {
         font-size: 55px;
     }
@@ -345,10 +345,10 @@
     .slider-content {
         padding-bottom: 80px;
     }
-    .slider-content > h2 {
+    /* .slider-content > h2 {
         font-size: 45px;
         line-height: 60px;
-    }
+    } */
     .slider-content > p {
         font-size: 18px;
         line-height: 32px;

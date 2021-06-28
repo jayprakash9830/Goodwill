@@ -105,13 +105,14 @@
                                     <div class="form-grp">
                                         <label for="fullname">Full Name <span class="marked">*</span></label>
                                         <input type="text" name="name" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                            aria-describedby="emailHelp" placeholder="Enter Name" required>
                                         <small id="emailHelp" class="form-text text-muted">Enter your Full Name </small>
                                     </div>
                                     <div class="form-grp">
-                                        <label for="exampleInputEmail1">Email address <span class="marked">*</span></label>
-                                        <input type="email" class="form-control"  name="email" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                        <label for="exampleInputEmail1">Email address <span
+                                                class="marked">*</span></label>
+                                        <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter email" required>
                                         <small id="emailHelp" class="form-text text-muted">Enter your email-Id</small>
                                     </div>
                                 </div>
@@ -119,16 +120,19 @@
                                     <div class="form-grp">
                                         <label for="fullname">Contact Number <span class="marked">*</span></label>
                                         <input type="text" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" name="contact" placeholder="Contact Number">
-                                        <small id="emailHelp" class="form-text text-muted">Enter Your 10 digit number We'll never share </small>
+                                            aria-describedby="emailHelp" name="contact" placeholder="Contact Number"
+                                            required>
+                                        <small id="emailHelp" class="form-text text-muted">Enter Your 10 digit number
+                                            We'll never share </small>
                                     </div>
                                     <div class="form-grp">
                                         <label for="select-option">City <span class="marked">*</span></label> <br>
-                                        <select class="city" name="city" aria-label="Default select example">
+                                        <select class="city" name="teachercity" aria-label="Default select example"
+                                            required>
                                             <option selected disabled>Choose Your City</option>
                                             <option value="patna">Patna</option>
                                             <option value="varanasi">Varanasi</option>
-                                          </select>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -136,34 +140,39 @@
                                         <label for="">Gender <span class="marked">*</span></label> <br>
                                         <div class="gender-candidate">
                                             <label for="male">Male</label>
-                                            <input type="radio" name="gender" id="male" value="Male">
+                                            <input type="radio" name="gender" id="male" value="Male" required>
                                             <label for="female">Female</label>
-                                            <input type="radio" name="gender" id="female" value="Female">
+                                            <input type="radio" name="gender" id="female" value="Female" required>
                                         </div>
                                     </div>
                                     <div class="form-grp">
                                         <label for="">Subject <span class="marked">*</span></label>
-                                        <input type="text" name="subject" id="" class="form-control" placeholder="Which Subject you can guide">
+                                        <input type="text" name="subject" id="" class="form-control"
+                                            placeholder="Which Subject you can guide" required>
                                         <small class="form-text text-muted">Ex. Math English Python...</small>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-grp address">
                                         <label for="address">Address <span class="marked">*</span></label>
-                                        <textarea name="address" id="" cols="30" rows="10" placeholder="Your Complete Address.."></textarea>
-                                        <small class="form-text text-muted">Your address must contains area code.</small>
+                                        <textarea name="address" id="" cols="30" rows="10"
+                                            placeholder="Your Complete Address.." required></textarea>
+                                        <small class="form-text text-muted">Your address must contains area
+                                            code.</small>
                                     </div>
                                     <div class="form-grp">
                                         <div class="aadhar">
                                             <label for="aadhar">Aadhar Number</label>
-                                            <input type="text" name="aadhar" id="" placeholder="Aadhar Number" form-control>
-                                            <small class="form-text text-muted">We will never share your aadhar number with anyone else</small>
+                                            <input type="text" name="aadhar" id="" placeholder="Aadhar Number"
+                                                form-control>
+                                            <small class="form-text text-muted">We will never share your aadhar number
+                                                with anyone else</small>
                                         </div>
                                         <div class="image">
                                             <img id="blah" alt="your image" width="100" height="100"
-                                            style="margin-top: 20px; margin-left:45px" />
-                                        <input type="file" style="margin-top: 20px;" name="image"
-                                            onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+                                                style="margin-top: 20px; margin-left:45px" />
+                                            <input type="file" style="margin-top: 20px;" name="image"
+                                                onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
                                             <small class="form-text text-muted">Choose Your Image</small>
                                         </div>
                                     </div>
@@ -217,7 +226,8 @@
                             <div class="footer-contact">
                                 <p>
                                     <i class="icofont-location-pin"></i>
-                                    <span>263, near Forest Department, Nehru Nagar, Patliputra Colony, Patna, Bihar 800013, India</span>
+                                    <span>263, near Forest Department, Nehru Nagar, Patliputra Colony, Patna, Bihar
+                                        800013, India</span>
                                 </p>
                                 <p>
                                     <i class="icofont-ui-call"></i>
@@ -230,8 +240,8 @@
                             </div>
                             <div class="footer-social">
                                 <a href="https://www.instagram.com/_ncert_exam_/?utm_medium=copy_link" target="_blank">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
                                 <a href="https://twitter.com/home" target="_blank">
                                     <i class="icofont-twitter"></i>
                                 </a>

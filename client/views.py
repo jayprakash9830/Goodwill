@@ -14,7 +14,7 @@ def tutorRegister(request):
         name=request.POST['name']
         email=request.POST['email']
         contact=request.POST['contact']
-        city=request.POST['city']
+        city=request.POST['teachercity']
         gender=request.POST['gender']
         aadhar=request.POST['aadhar']
         subject=request.POST['subject']

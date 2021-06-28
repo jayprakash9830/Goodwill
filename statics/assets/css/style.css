@@ -530,9 +530,15 @@ figure img {
     z-index: 5;
     position: relative;
 }
+.slider-content > h1{
+    font-size: 8vh;
+    line-height: 85 px;
+    font-weight: 700;
+    color: rgb(15, 247, 34);
+}
 
 .slider-content > h2 {
-    font-size: 50px;
+    font-size: 3vh;
     line-height: 85 px;
     font-weight: 700;
     color: #fff;
